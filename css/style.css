@@ -1,15 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
+#header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 90px;
+  background: url(../img/byer1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
 }
-.container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(img/runbk.png);
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
-    position: relative;
+
+#header .menu li a {
+  border-color: #b64fb1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  margin: 10px;
 }
+
+#header .logo img {
+  border-radius: 60px;
+}
+
+#header .head-ico i {
+  color: white;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */

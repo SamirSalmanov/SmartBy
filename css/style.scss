@@ -1,0 +1,33 @@
+
+#header{
+    box-sizing: border-box;
+    border-radius: 90px;
+    background: url(../img/byer1.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    .menu{
+        li{
+            a{
+                border-color: rgb(182, 79, 177);
+                box-sizing: border-box;
+                text-decoration: none;
+                color: white;
+                margin: 10px;
+            }
+            
+        }
+    }
+    .logo img{
+        border-radius: 60px;
+    }
+
+    .head-ico{
+        i{
+            color: white;
+            margin-right: 5px;
+        }
+    }
+}
