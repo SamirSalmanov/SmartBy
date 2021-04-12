@@ -10,12 +10,25 @@ a:hover {
 
 #header {
   font-family: Arial;
-  background: url(../img/slider6-4.jpg);
-  height: 100vh;
+}
+
+#header .slider {
+  min-height: 100%;
+  background: no-repeat center center scroll;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   position: relative;
+}
+
+#header .slider .carousel-caption {
+  bottom: 270px;
+}
+
+#header .slider .carousel-caption h5 {
+  margin: 50px;
+}
+
+#header .slider .carousel-caption p {
+  margin: 30px;
 }
 
 #header .topbar {
@@ -28,7 +41,7 @@ a:hover {
 
 #header .topbar li a {
   text-decoration: none;
-  color: white;
+  color: #362f2f;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 7px;
@@ -36,12 +49,12 @@ a:hover {
 }
 
 #header .topbar li i {
-  color: white;
+  color: #463c3c;
 }
 
 #header .menu {
-  border-top: 0.5px solid #fff;
-  border-bottom: 0.5px solid #fff;
+  border-top: 0.5px solid #c4c0c0;
+  border-bottom: 0.5px solid #d1cdcd;
   padding: 8px 0;
 }
 
@@ -50,7 +63,7 @@ a:hover {
 }
 
 #header .menu .logo img {
-  border-radius: 60px;
+  background: #7a7474;
 }
 
 #header .menu li {
@@ -61,12 +74,12 @@ a:hover {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
-  color: white;
+  color: #978c8c;
   margin: 10px;
 }
 
 #header .head-ico ul i {
-  color: white;
+  color: #a89a9a;
   margin: 0 5px;
 }
 
